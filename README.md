@@ -60,8 +60,14 @@ source venv/bin/activate
 
 -   On Windows:
 
+**New Terminal: Command Prompt**
+
 ```bash
-venv\Scripts\activate
+venv\Scripts
+```
+
+```bash
+activate.bat
 ```
 
 6. Install the dependencies:
@@ -73,6 +79,10 @@ pip3 install -r requirements.txt
 ```
 
 -   On Windows:
+
+```bash
+cd ..\..
+```
 
 ```bash
 pip install -r requirements.txt
